@@ -5,5 +5,4 @@ import pdftables_api
 api = "izhexad818vp"
 
 c = pdftables_api.Client(api)
-c.xlsx_single('input.pdf', 'output.xlsx')
-
+c.xlsx('input.pdf', 'output.xlsx')
